@@ -1,0 +1,42 @@
+# Firebase credentials (sensitive)
+*.json
+!config.example.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# CSV data files
+*.csv
+
+# CSV documentation files
+READ_ME_contacts_info.txt
+READ_ME_subsidiary.txt
+
+# Markdown files (except README.md)
+*.md
+!README.md
+
+# Output files
+output/
+manual_review.json
+unmatched_companies.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

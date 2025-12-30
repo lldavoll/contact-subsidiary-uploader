@@ -1,0 +1,19 @@
+{
+  "firebase": {
+    "credentials_path": "./firebase-credentials.json",
+    "project_id": "your-project-id-here"
+  },
+  "fuzzy_matching": {
+    "auto_accept_threshold": 90.0,
+    "manual_review_threshold": 80.0
+  },
+  "files": {
+    "contacts_csv": "company_contacts_full.csv",
+    "subsidiary_csv": "company_subsidiary.csv"
+  },
+  "output": {
+    "directory": "./output"
+  }
+}
+
+
